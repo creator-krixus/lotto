@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+    <script defer src="./inde.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h3>El numero ganador es:</h3>
+        <span id="ganador"></span>
+    </div>
+    <div class="container__seleccion">
+        <h4>Vas a jugar con el numero</h4>
+        <input type="number">
+    </div>
+    <div class="container__apuesta">
+        <h4>Tu apuesta es:</h4>
+        <input type="number">
+    </div>
+    <div class="container__ganadores">
+        <div class="tresCifras">
+            <h4>Ganador 3 cifras</h4>
+            <span id="tresCifras"></span>
+        </div>
+        <div class="ultimas2">
+            <h4>Ganador 2 cifras</h4>
+            <spa id="dosCifras"></spa>
+        </div>
+        <div class="ultimo">
+            <h4>Ganador ultima cifra</h4>
+            <span id="ultimo"></span>
+        </div>
+    </div>
+    <div class="container__start">
+        <button class="btn" id="btn" onclick="rotateImg()">Jugar</button>
+    </div>
+</body>
+
+</html>

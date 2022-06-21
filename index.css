@@ -1,0 +1,23 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+.container{
+    text-align: center;
+}
+.ruleta{
+    width: 100%;
+}
+.container__seleccion{
+    text-align: center;
+    margin-top: 2rem;
+}
+.container__apuesta{
+    text-align: center;
+}
+.container__start{
+    text-align: center;
+}
+.container__ganadores{
+    text-align: center;
+}
